@@ -8,14 +8,4 @@
 // @grant        GM_addStyle
 // ==/UserScript==
 
-GM_addStyle("                     \
-  .comment.collapsed .usertext {  \
-    display: block;               \
-  }                               \
-  .comment.collapsed .midcol {    \
-    visibility: visible;          \
-    height: auto;                 \
-  }                               \
-")
-
-$('.noncollapsed > .entry > .tagline > .expand').click()
+$('.noncollapsed .noncollapsed > .entry > .tagline > .expand').click()
