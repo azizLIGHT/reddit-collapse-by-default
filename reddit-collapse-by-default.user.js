@@ -26,7 +26,7 @@ GM_addStyle("                                                                   
 
 
 // Add expand-children comments link
-$('<a href="javascript:void(0)" class="expand-children collapsedc" onclick="">[+++]</a>').insertAfter('.expand');
+$('<a href="javascript:void(0)" class="expand-children collapsedc" onclick="">[+++]</a><span>&nbsp</span>').insertAfter('.expand');
 
 
 // Do not collapse top-level comments
