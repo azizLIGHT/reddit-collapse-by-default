@@ -95,7 +95,7 @@ $('.expand-children').click(function(){
 
         t = k.children().children();
         count = t.size();
-        for (obj_index=0;obj_index<count-2;obj_index+=2)
+        for (obj_index=0;obj_index<count-1;obj_index+=2)
         {
             n = t.eq(obj_index);
             k = n.children(".entry");
@@ -116,7 +116,7 @@ $('.expand-children').click(function(){
         k=$(this).parent().parent().next();
         t = k.children().children();
         count = t.size();
-        for (obj_index=0;obj_index<count-2;obj_index+=2)
+        for (obj_index=0;obj_index<count-1;obj_index+=2)
         {
             n = t.eq(obj_index);
             k = n.children(".entry");
